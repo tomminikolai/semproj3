@@ -8,3 +8,5 @@ while 1:
     ser.write(xd + b'\n')
     line = ser.readline().decode('utf-8').rstrip()
     print(line)
+    print("lmao")
+    
